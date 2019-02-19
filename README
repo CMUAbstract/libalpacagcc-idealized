@@ -1,0 +1,3 @@
+This is the shell of a task runtime based on Chain (Colin, OOPSLA 2016), except
+it does not include any buffering of non-volatile data that is read after it is
+written, so it will fail on harvested energy.
